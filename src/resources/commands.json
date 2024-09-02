@@ -8,8 +8,7 @@
       "<code>experiences</code> : Display the list of my professional experiences",
       "<code>get cv</code> : Download CV",
       "<code>help</code> : Display help",
-      "<code>hobbies</code> : Display the list of my hobbies",
-      "<code>projects</code> : Display the list of my personal projects",
+      "<code>clients</code> : Display the list of my personal projects",
       "<code>dark/light</code> : Change theme",
       "<em>You can use the TAB key to complete a command</em>",
       "<em>You can find old commands with the up and down arrows.</em>"
@@ -20,10 +19,10 @@
     "responseType": "code",
     "value": [
       "{",
-      "   \"name\" : \"Antoine DAUTRY\",",
-      "   \"poste\" : \"Fullstack developer\",",
-      "   \"experience\" : \"4 years\",",
-      "   \"city\" : \"Nantes, France\"",
+      "   \"name\" : \"Dakota Lonseth\",",
+      "   \"poste\" : \"QA Engineer\",",
+      "   \"experience\" : \"10 years\",",
+      "   \"city\" : \"Florida, USA\"",
       "}"
     ]
   },
@@ -36,82 +35,145 @@
       "Description",
       "Tech"
     ],
-    "rows": [
-      [
-        "07/2023<br/>Now",
-        "Airbus Helicopters",
-        "Setting up a website to provide tools for several<br/>internal departments",
-        "Angular 16<br/>Symfony 6<br/>EventSource"
-      ],
-      [
-        "11/2021<br/>06/2023",
-        "Elephant Tech<br/><em>Ministry of Justice</em>",
-        "Establishment of a platform linking the various actors<br/>in the reintegration of former prisoners.",
-        "Angular 11<br/>Spring Boot<br/>Axelor"
-      ],
-      [
-        "03/2021<br/>11/2021",
-        "SII<br/><em>La Poste</em>",
-        "La Poste's internal tool for allocating technicians to different<br/>missions.",
-        "Angular 11<br/>Spring Boot<br/>Spring Batch"
-      ],
-      [
-        "02/2020<br/>03/2021",
-        "SII<br/><em>I.T. Dept</em>",
-        "Maintenance of an internal timesheet tool.<br/>Development of plugins for our version of ProjeQtor.<br/>Conversion of an old webapp to Angular 9.",
-        "Symfony<br/>Angular 9"
-      ],
-      [
-        "11/2019<br/>02/2020",
-        "SII<br/><em>Poste IMMO</em>",
-        "Work on a process management tool to manage the evolution of a work request.",
-        "Symfony 3.4<br/>AngularJS<br/>Processmaker"
-      ]
-    ]
+   "rows": [
+  [
+    
+    "04/2023<br/>",
+    "Clubcar",
+    "Participated in SDLC with two-week sprint cycles using Agile.<br/>Wrote test cases, reported bugs, and collaborated with teams.<br/>Researched automation solutions and created implementation proposals.",
+    "Agile methodology<br/>Software testing<br/>Automation"
+  ],
+  [
+    "08/2022<br/>04/2023",
+    "Leaf Trade",
+    "Joined QA team for B2B supply chain platform.<br/>Designed test plans, developed automated tests, and managed defects.<br/>Deployed and communicated weekly software releases.",
+    "Test planning<br/>Automated testing<br/>Defect management"
+  ],
+  [
+    "02/2019<br/>08/2022",
+    "PowerChord, Inc.",
+    "Led QA for front-end and back-end systems.<br/>Managed Azure pipelines and conducted various types of testing.<br/>Worked with major clients generating over $12,000,000/year in revenue.",
+    "Azure pipelines<br/>ADA compliance testing<br/>API integration"
+  ],
+  [
+    "02/2018<br/>01/2019",
+    "Synzi Virtual Care",
+    "Developed QA processes in a startup environment.<br/>Led automation engineering and established coding standards.<br/>Utilized Python, Selenium GUI, and Katalon GUI.",
+    "Python<br/>Selenium GUI<br/>Katalon GUI"
+  ],
+  [
+    "02/2015<br/>02/2018",
+    "Affinitiv (AutoLoop)",
+    "Started as trigger team member, became lead QA for Business Dev Center.<br/>Conducted SQL and WIQ testing, created first automation framework.<br/>Worked with major automotive clients.",
+    "SQL<br/>WIQ testing<br/>Automation framework"
+  ]
+]
+
   },
   {
-    "command": "hobbies",
-    "responseType": "list",
-    "value": [
-      "Music: Piano, Guitar",
-      "Programmation: JS, Angular, PHP",
-      "Other: Cinema, Aeronautics, Photography"
-    ]
-  },
-  {
-    "command": "projects",
+    "command": "clients",
     "responseType": "table",
-    "headers": [
-      "Name",
-      "Description",
-      "Tech",
-      "Links"
-    ],
-    "rows": [
-      [
-        "Form to Resume - Web<br/>(2023)",
-        "I set up a private web page where I can manually change data from my resume via a form. After validating changes, this will generate a PDF file that will be available on the public link.",
-        "Angular 16, PHP 8.2",
-        "<a href=\"https://my-resume.adautry.fr/show-latest\" target=\"blank\">Links</a>"
-      ],
-      [
-        "Chartsfinder - Web<br/>(2021)",
-        "Web application to quickly find aeronautical maps. A C# version already existed but I preferred to update it with a web version which is easier to use.",
-        "Angular 11, PHP 7.4",
-        "<a href=\"https://chartsfinder.adautry.fr\" target=\"blank\">Links</a>"
-      ],
-      [
-        "Personal website<br/>(2021)",
-        "Personal website allowing me to show my projects and deploy a new version of the software.<br/>There is even a hidden game...",
-        "Symfony 5",
-        "<a href=\"https://adautry.fr\" target=\"blank\">Link</a>"
-      ],
-      [
-        "Chartsfinder - Software<br/>(2020)",
-        "Software to quickly retrieve aeronautical charts.",
-        "C# WPF",
-        "<a href=\"https://adautry.fr/software/chartsfinder\" target=\"blank\">Link</a>"
-      ]
-    ]
+"headers": [
+  "Name",
+  "Description",
+  "Tech",
+  "Links"
+],
+"rows": [
+  [
+    "Paramount+",
+    "A media and entertainment company providing streaming services and premium content across platforms.",
+    "Streaming, Advertising, Global Markets",
+    "<a href=\"https://www.paramount.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Metalpay",
+    "A financial technology company offering a platform for buying, selling, and using cryptocurrencies.",
+    "Cryptocurrency, Blockchain",
+    "<a href=\"https://www.metalpay.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Club Car",
+    "Manufactures electric and gas-powered golf carts and utility vehicles for personal and commercial use.",
+    "Electric Vehicles, Utility Vehicles",
+    "<a href=\"https://www.clubcar.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Leaf Trade",
+    "A B2B marketplace for the wholesale cannabis industry, streamlining operations from seed to sale.",
+    "Cannabis Tech, ERP Integration",
+    "<a href=\"https://leaf.trade\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Stihl",
+    "Produces handheld outdoor power equipment, including chainsaws and trimmers, known for quality and innovation.",
+    "Outdoor Power Equipment",
+    "<a href=\"https://www.stihlusa.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Best Buy",
+    "A leading retailer of technology products, services, and solutions, known for its customer-centric approach.",
+    "Retail Tech, E-commerce",
+    "<a href=\"https://www.bestbuy.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Subaru",
+    "Automobile manufacturer known for its boxer engines and all-wheel-drive vehicles.",
+    "Automotive, All-Wheel Drive",
+    "<a href=\"https://www.subaru.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Toyota",
+    "The world's largest automobile manufacturer, known for its hybrid technology and lean manufacturing.",
+    "Automotive, Hybrid Technology",
+    "<a href=\"https://www.toyota.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Mercedes Benz",
+    "A global automobile manufacturer known for luxury vehicles, buses, and trucks.",
+    "Automotive, Luxury Vehicles",
+    "<a href=\"https://www.mercedes-benz.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Kohler",
+    "Manufactures kitchen and bath products, engines, and power systems, known for design and innovation.",
+    "Consumer Products, Engines",
+    "<a href=\"https://www.kohler.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Morbark",
+    "Produces tree care and wood waste recycling equipment, known for its chippers and grinders.",
+    "Forestry Equipment, Recycling",
+    "<a href=\"https://www.morbark.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Mercury",
+    "A fintech company offering online banking services for startups with a focus on digital solutions.",
+    "Fintech, Digital Banking",
+    "<a href=\"https://www.mercury.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Trex",
+    "The world's largest manufacturer of wood-alternative decking products.",
+    "Composite Decking, Sustainable Materials",
+    "<a href=\"https://www.trex.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "Vizio",
+    "Produces consumer electronics, including televisions and soundbars, known for affordable, high-quality products.",
+    "Consumer Electronics, Smart TVs",
+    "<a href=\"https://www.vizio.com\" target=\"blank\">Links</a>"
+  ],
+  [
+    "NBA.com",
+    "The official site of the National Basketball Association, providing news, scores, and multimedia content.",
+    "Sports Media, Digital Content",
+    "<a href=\"https://www.nba.com\" target=\"blank\">Links</a>"
+  ]
+]
+
   }
 ]
+
+
+

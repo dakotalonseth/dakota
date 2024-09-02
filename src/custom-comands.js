@@ -53,8 +53,8 @@ export function setDarkMode(value) {
 
 export function getCV() {
   const a = document.createElement("a");
-  a.href = "https://my-resume.adautry.fr/download-latest";
-  a.setAttribute("download", "CV - Antoine DAUTRY.pdf");
+  a.href = "https://s3.amazonaws.com/www.dakotalonseth.com/Dakota+Lonseth+Resume+2024.pdf";
+  a.setAttribute("download", "CV - Dakota Lonseth.pdf");
   a.click();
 }
 
